@@ -1,0 +1,213 @@
+/* Style General */
+
+*{
+ font-family:'Calibri';
+}
+
+/* Fin del Style General */
+
+
+
+/* Style para el header */
+
+header{
+    background-color: rgb(117, 53, 53);
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .menu-container{
+    display: flex;
+    }
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.logo-header{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+.menu-item{
+    margin: 40px;
+    font-size:larger;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+/* End of style para el header */
+
+
+
+/* Style para la parte central comun */
+
+.parte-central{
+    background-color: blanchedalmond;
+    height: 800px;
+}
+
+/* Fin del style para la parte central comun */
+
+
+
+/* Style para la parte central del index */
+
+.index-parte-central{
+    display: flex;
+    justify-content: space-around;
+    height: 700px;
+    align-items: center;
+}
+
+.index-multimedia{
+    height: 400px;
+    width: 400px;
+}
+
+.index-texto{
+    height: 150px;
+    width: 400px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.index-tabla{
+    height: 100px;
+    width: 400px;
+    margin-top: 10px;
+    border: solid;
+    text-align: left;
+}
+
+.link-hasta-productos-container{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+.link-hasta-productos{
+    text-decoration: none;
+    border-style: double;
+    color: black;
+    height: 16px;
+    font-size: small;
+}
+
+/* Fin del style para la parte central del index */
+
+
+
+/* Style para los productos */
+
+.productos-container{
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.productos-parte-uno{
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos-parte-dos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto-y-imagen{
+    display: flex;
+    height: 300px;
+}
+
+.producto-imagen{
+    width: 300px;
+    height: 300px;
+}
+
+.producto-texto{
+    width: 300px;
+    height: 300px;
+    margin: 0px;
+    padding-left: 10px;
+    text-align: justify;
+}
+
+/* Fin del style para los productos */
+
+
+
+
+/* Style para La Granja */
+
+.la-granja-parte-video{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.la-granja-video{
+    height: 600px;
+    width: 1000px;
+}
+
+/* Fin del style para La Granja */
+
+
+
+
+/* Style para la Ubicacion */
+
+.ubicacion-parte-mapa{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Multimedia/Imagenes/Campo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ubicacion-mapa{
+    height: 600px;
+    width: 1000px;
+}
+
+/* Fin del style para la Ubicacion */
+
+
+
+
+/* Style para el footer */
+
+footer{
+    background-color: rgb(117, 53, 53);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.footer-container-redes{
+    list-style-type: none;
+    display: flex;
+}
+
+.redes{
+    margin-right: 30px;
+}
+
+.footer-texto{
+    margin-right: 40px;
+}
+
+/* Fin del Style para el footer */
