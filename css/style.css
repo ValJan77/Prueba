@@ -1,0 +1,114 @@
+/* Style General */
+* {
+  font-family: 'Calibri'; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+/* Fin del Style General */
+/* Style para el header*/
+#header-item {
+  border-radius: 20%;
+  color: white; }
+
+#header-item:hover {
+  background-color: blanchedalmond;
+  color: #753535; }
+
+.logo-header {
+  border-radius: 20%; }
+
+.logo-header:hover {
+  transform: scale(1.2) translateX(80px);
+  filter: sepia(100%);
+  transition: all 3s; }
+
+/* End of style para el header */
+/* Style para la parte central del index */
+.main-index {
+  height: 51em;
+  display: flex;
+  justify-content: center;
+  background-color: blanchedalmond;
+  width: 100%; }
+  .main-index .index-parte-central {
+    display: flex;
+    justify-content: space-around;
+    height: 48em;
+    align-items: center;
+    width: 100%; }
+    .main-index .index-parte-central .index-multimedia {
+      height: 25em;
+      width: 25em; }
+    .main-index .index-parte-central .index-texto {
+      height: 10em;
+      width: 25em;
+      text-align: justify;
+      margin-top: 0.5em; }
+    .main-index .index-parte-central .index-tabla {
+      height: 4em;
+      width: 25em;
+      margin-top: 0.1em;
+      border: solid;
+      text-align: left; }
+
+.link-hasta-productos-container {
+  display: flex;
+  margin-top: 0.2em;
+  justify-content: center; }
+  .link-hasta-productos-container .link-hasta-productos {
+    text-decoration: none;
+    border-style: double;
+    color: black;
+    height: 2em;
+    font-size: small; }
+
+.link-hasta-productos:hover {
+  background-color: #753535;
+  color: white; }
+
+/* Fin del style para la parte central del index */
+/* Style para el footer */
+footer {
+  background-color: #753535;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer .footer-container-redes {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 1em; }
+    footer .footer-container-redes .redes {
+      margin-right: 30px;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      border-radius: 10%; }
+    footer .footer-container-redes .footer-texto {
+      margin-right: 40px;
+      margin-top: 1em; }
+
+.redes:hover {
+  transform: scale(1.2) translateY(-0.5em);
+  transition: all 0.5s; }
+
+/* Fin del Style para el footer */
+/* Style pare el whatsapp */
+.whatsapp {
+  position: fixed;
+  bottom: 5em;
+  right: 2em;
+  height: 4em;
+  width: 4em;
+  border-radius: 10%; }
+
+.whatsapp:hover {
+  transform: translate(-1em) scale(1.2);
+  filter: sepia(100%);
+  transition: all 1s; }
+
+/* Fin del style para el whatsapp */
